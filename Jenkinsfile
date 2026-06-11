@@ -78,7 +78,7 @@ pipeline {
 
             steps {
 
-                    sh "sudo cp  target/war.war {TOMCAT_PATH}war.war"
+                    sh "sudo cp  target/*.war {TOMCAT_PATH}war.war"
                 }
             }
         
